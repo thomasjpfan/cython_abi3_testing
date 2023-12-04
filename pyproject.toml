@@ -4,6 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "adder"
-dynamic = ["version"]
+dynamic = ["version", "requires-python"]
 
 [tool.setuptools_scm]
