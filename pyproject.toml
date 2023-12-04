@@ -5,3 +5,5 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "adder"
 dynamic = ["version"]
+
+[tool.setuptools_scm]
