@@ -1,0 +1,7 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm", "Cython"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "adder"
+dynamic = ["version"]
