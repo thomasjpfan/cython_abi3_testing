@@ -15,6 +15,7 @@ class bdist_wheel_abi3(bdist_wheel):
 
 
 setup(
+    packages=["adder"],
     ext_modules=[
         Extension(
             "adder.add",
