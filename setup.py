@@ -22,7 +22,7 @@ setup(
             ["adder/add.pyx"],
             py_limited_api=True,
             define_macros=[
-                ("Py_LIMITED_API", "0x030700f0"),
+                ("Py_LIMITED_API", "0x030600f0"),
                 ("CYTHON_LIMITED_API", "1"),
             ],
         )
